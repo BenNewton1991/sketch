@@ -63,6 +63,8 @@ function custom_squares () {
 
 
 
+
+
 add_squares()
 
 function remove_squares () {
