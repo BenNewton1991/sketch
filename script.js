@@ -19,7 +19,7 @@ function add_squares () {
     for (let i =0; i < 256; i++){
         let a = document.createElement('div');
         a.classList.add('sqr');
-        a.addEventListener('mouseover', function (){
+        a.addEventListener('mousedown', function (){
             a.classList.add('sqr_hovered')
         })
         
